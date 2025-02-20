@@ -1,7 +1,7 @@
 .element {
     width: 300px;
-    height: 300px;
-    resize: both;
+    height: 100px;
+    margin: 10px;
     overflow: auto;
     background-image: url(../images/background.jpg);
 }
