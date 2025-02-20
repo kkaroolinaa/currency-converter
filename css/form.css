@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+  
+  .form {
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  .form_field {
+    border-radius: 3px;
+    max-width: 200px;
+  }
+  
+  .form_field:required {
+    border-color: black;
+  }
+  
+  .form_field--word {
+    font-family: "Poppins", sans-serif;
+    margin-left: 5px;
+  }
+  
+  .form_button {
+    margin-left: 10px;
+    padding: 10px;
+    max-width: 300px;
+    border: none;
+    background-color: #a6a9e8;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form_legend {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form_result {
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+  }
+  
+  .form_button:hover {
+    background-color: #7577a2;
+  }
+  
+  .form_button:active {
+    background-color: #a2c6e9;
+  }
+  
+  .form_exchangeRate {
+    color: #a6a9e8;
+  }
+  
+  .form_button--reset {
+    margin-left: 10px;
+    padding: 10px;
+    max-width: 300px;
+    border: none;
+    background-color: #a6a9e8;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form_button--reset:hover {
+    background-color: #7577a2;
+  }
+  
+  .form_button--reset:active {
+    background-color: #a2c6e9;
+  }

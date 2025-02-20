@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/form.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>Konwerter walut</title>
+</head>
+
+<body>
+  <form class="js-form form">
+    <fieldset>
+      <legend class="form_legend">Konwerter € na PLN</legend>
+      <p>
+        <label>*<input class="js-amount form_field" type="number" required step="any" min="1"><span class="form_field--word">EURO</span></label>
+      </p>
+    </fieldset>
+    <p>
+      <button class="js-button form_button">Oblicz kurs</button> <button type="reset" class="js-buttonReset form_button--reset">Wyczyść</button>
+    </p>
+
+    <p><span class="form_result">Kwota w PLN:</span><strong class="js-exchangeRate form_exchangeRate"></strong>
+    </p>
+  </form>
+</body>
+
+</html>
